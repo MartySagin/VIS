@@ -1,4 +1,4 @@
-# VIS Projekt KAL0326
+# VIS Projekt KAL0326 - Rezervace Klubů
 
 ## Proč
 Zákazník potřebuje nový informační systém, protože dosavadní rezervace klubů probíhaly komplikovaně a neefektivně.
