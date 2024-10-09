@@ -29,6 +29,6 @@
 - Systém bude využíván při rezervaci klubů a správě uživatelských účtů.
 
 ## Jak
-- Systém bude vyvíjen agilním způsobem.
+- Systém bude vyvíjen agilním způsobem (viz. obrázek níže).
 
 ![Alt text](VIS_agile.png)
