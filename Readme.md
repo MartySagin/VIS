@@ -10,7 +10,7 @@
 
 ## Kdo
 ### Registrovaný uživatel 
-▪ Osoba, která chce pronajmout klub a používat služby systému pro rezervaci klubu na určité datum a čas. 
+- Osoba, která chce pronajmout klub a používat služby systému pro rezervaci klubu na určité datum a čas. 
 ### Neregistrovaný uživatel 
 - Osoba, která si nebude moct pronajmout klub, ale bude se moct podívat na nabídku klubů. 
 ### Majitel klubu
