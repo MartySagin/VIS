@@ -87,10 +87,14 @@
 - Vstupní podmínky: : Uživatel zadá všechny potřebné požadavky pro vyhledávání
 - Spouštěč: Uživatel chce vyhledat vhodný klub
 - Úspěšný scénář:
-  1. Uživatel chce vyhledat vhodné kluby podle jeho požadavků.
-  2. Uživatel zadá všechny požadavky a klikne na tlačítko „Vyhledat Kluby“.
-  3. Systém požadavky zpracuje a podle nich zobrazí uživateli vyhovující kluby.
-  4. Uživateli se zobrazí kluby, které vyhovují jeho požadavkům.
+  1. Uživatel se přihlásí do systému.
+  2. Uživatel přejde do sekce „Vyhledat kluby“.
+  3. Systém zobrazí formulář pro zadání vyhledávacích kritérií (lokalita, kapacita, dostupnost).
+  4. Uživatel zadá všechny požadované parametry a spustí vyhledávání kliknutím na tlačítko „Vyhledat“.
+  5. Systém zpracuje zadané požadavky.
+  6. Systém prohledá databázi klubů podle zadaných parametrů.
+  7. Systém vrátí seznam klubů, které odpovídají uživatelovým kritériím.
+  8. Uživatel si prohlédne zobrazené kluby a vybere vhodný klub pro další akce (např. rezervace).
 
 ### Aktivitní diagram pro Use Case 1
 ![Alt text](activityDiagramSearchClub.png)
