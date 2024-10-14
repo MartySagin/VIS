@@ -45,15 +45,15 @@
 si vybral, musí existovat v databázi
 - Spouštěč: Uživatel si chce rezervovat klub na dané datum a čas
 - Úspěšný scénář:
-1. Uživatel se přihlásí do systému a chce podle zadaných podmínek vyhledat vhodný klub.
-2. Systém zpracuje požadavky uživatele a vrátí podle nich vyhovující kluby.
-3. Uživatel vybere ze seznamu klub
-4. Systém ověří dostupnost klubu na zvolené datum a čas a zobrazí uživateli rezervační formulář
-5. Uživatel vyplní rezervační formulář a bude chtít vytvořit rezervaci
-6. Systém zobrazí potvrzení rezervace a požádá uživatele o potvrzení.
-7. Uživatel potvrdí rezervaci.
-8. Systém odešle potvrzení rezervace uživateli a klubu.
-9. Systém vytvoří záznam o rezervaci v databázi a převede uživatele na platební bránu.
-10. Uživatel provede platbu.
+  1. Uživatel se přihlásí do systému a chce podle zadaných podmínek vyhledat vhodný klub.
+  2. Systém zpracuje požadavky uživatele a vrátí podle nich vyhovující kluby.
+  3. Uživatel vybere ze seznamu klub
+  4. Systém ověří dostupnost klubu na zvolené datum a čas a zobrazí uživateli rezervační formulář
+  5. Uživatel vyplní rezervační formulář a bude chtít vytvořit rezervaci
+  6. Systém zobrazí potvrzení rezervace a požádá uživatele o potvrzení.
+  7. Uživatel potvrdí rezervaci.
+  8. Systém odešle potvrzení rezervace uživateli a klubu.
+  9. Systém vytvoří záznam o rezervaci v databázi a převede uživatele na platební bránu.
+  10. Uživatel provede platbu.
 
 
