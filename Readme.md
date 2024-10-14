@@ -41,8 +41,7 @@
 ## Use Case 3
 ### Název: Vytvořit rezervaci
 - Aktéři: Uživatel, Systém
-- Vstupní podmínky: Uživatel musí být registrovaný a přihlášený v systému a klub, který
-si vybral, musí existovat v databázi
+- Vstupní podmínky: Uživatel musí být registrovaný a přihlášený v systému a klub, který si vybral, musí existovat v databázi
 - Spouštěč: Uživatel si chce rezervovat klub na dané datum a čas
 - Úspěšný scénář:
   1. Uživatel se přihlásí do systému a chce podle zadaných podmínek vyhledat vhodný klub.
@@ -56,4 +55,18 @@ si vybral, musí existovat v databázi
   9. Systém vytvoří záznam o rezervaci v databázi a převede uživatele na platební bránu.
   10. Uživatel provede platbu.
 
+## Use Case 7 
+### Název: Stornování rezervace
+- Aktéři: Uživatel, Systém
+- Vstupní podmínky: Uživatel musí být registrovaný a přihlášený v systému a rezervace, kterou chce stornovat, musí v databázi existovat
+- Spouštěč: Uživatel chce stornovat již vytvořenou rezervaci
+- Úspěšný scénář:
+  1. Uživatel se přihlásí do systému.
+  2. Uživatel klikne na položku „Historie Rezervací“.
+  3. Systém zpracuje požadavek uživatele a vrátí mu všechny rezervace, které
+  uživatel vytvořil.
+  4. Uživatel vybere rezervaci, kterou chce stornovat.
+  5. Systém vytvoří záznam o stornování rezervace.
+  6. Systém odešle potvrzení o stornování rezervace uživateli a klubu.
+  7. Uživatel vidí stornovanou rezervaci v jeho historii rezervací.
 
