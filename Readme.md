@@ -54,7 +54,8 @@
   8. Systém odešle potvrzení rezervace uživateli a klubu.
   9. Systém vytvoří záznam o rezervaci v databázi a převede uživatele na platební bránu.
   10. Uživatel provede platbu.
- 
+
+### Aktivitní diagram pro Use Case 3
 ![Alt text](activityDiagramReservation.png)
 
 ## Use Case 7 
