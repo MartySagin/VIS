@@ -63,10 +63,21 @@
 - Úspěšný scénář:
   1. Uživatel se přihlásí do systému.
   2. Uživatel klikne na položku „Historie Rezervací“.
-  3. Systém zpracuje požadavek uživatele a vrátí mu všechny rezervace, které
-  uživatel vytvořil.
+  3. Systém zpracuje požadavek uživatele a vrátí mu všechny rezervace, které uživatel vytvořil.
   4. Uživatel vybere rezervaci, kterou chce stornovat.
   5. Systém vytvoří záznam o stornování rezervace.
   6. Systém odešle potvrzení o stornování rezervace uživateli a klubu.
   7. Uživatel vidí stornovanou rezervaci v jeho historii rezervací.
 
+## Use Case 1
+### Název: Vyhledat kluby
+- Aktéři: Uživatel, Systém
+- Vstupní podmínky: : Uživatel zadá všechny potřebné požadavky pro vyhledávání
+- Spouštěč: Uživatel chce vyhledat vhodný klub
+- Úspěšný scénář:
+  1. Uživatel chce vyhledat vhodné kluby podle jeho požadavků.
+  2. Uživatel zadá všechny požadavky a klikne na tlačítko „Vyhledat Kluby“.
+  3. Systém požadavky zpracuje a podle nich zobrazí uživateli vyhovující kluby.
+  4. Uživateli se zobrazí kluby, které vyhovují jeho požadavkům.
+
+  
