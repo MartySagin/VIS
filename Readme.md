@@ -32,3 +32,8 @@
 - Systém bude vyvíjen agilním způsobem (viz. obrázek níže).
 
 ![Alt text](VIS_agile.png)
+
+# Usecases
+## Obrázek
+
+![Alt text](Usecases.png)
