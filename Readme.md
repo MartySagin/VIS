@@ -33,7 +33,7 @@
 
 ![Alt text](VIS_agile.png)
 
-# Usecases
+# Use Cases
 ## Obrázek
 
 ![Alt text](Usecases.png)
