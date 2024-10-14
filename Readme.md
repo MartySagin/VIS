@@ -72,6 +72,8 @@
   6. Systém odešle potvrzení o stornování rezervace uživateli a klubu.
   7. Uživatel vidí stornovanou rezervaci v jeho historii rezervací.
 
+### Aktivitní diagram pro Use Case 7
+
 ## Use Case 1
 ### Název: Vyhledat kluby
 - Aktéři: Uživatel, Systém
@@ -83,4 +85,5 @@
   3. Systém požadavky zpracuje a podle nich zobrazí uživateli vyhovující kluby.
   4. Uživateli se zobrazí kluby, které vyhovují jeho požadavkům.
 
-  
+### Aktivitní diagram pro Use Case 1
+![Alt text](activityDiagramSearchClub.png)
