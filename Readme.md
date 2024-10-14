@@ -58,21 +58,28 @@
 ### Aktivitní diagram pro Use Case 3
 ![Alt text](activityDiagramReservation.png)
 
-## Use Case 7 
-### Název: Stornování rezervace
-- Aktéři: Uživatel, Systém
-- Vstupní podmínky: Uživatel musí být registrovaný a přihlášený v systému a rezervace, kterou chce stornovat, musí v databázi existovat
-- Spouštěč: Uživatel chce stornovat již vytvořenou rezervaci
+## Use Case 5 
+### Název: Platba rezervace
+- Aktéři: Uživatel, Systém, Platební brána
+- Vstupní podmínky:
+  1. Uživatel musí mít v systému vytvořenou rezervaci.
+  2. Uživatel musí být přihlášený v systému.
+  3. Platební brána musí být funkční a dostupná.
+- Spouštěč: Uživatel si již vytvořil rezervaci klubu a chce provést platbu za tuto rezervaci
 - Úspěšný scénář:
-  1. Uživatel se přihlásí do systému.
-  2. Uživatel klikne na položku „Historie Rezervací“.
-  3. Systém zpracuje požadavek uživatele a vrátí mu všechny rezervace, které uživatel vytvořil.
-  4. Uživatel vybere rezervaci, kterou chce stornovat.
-  5. Systém vytvoří záznam o stornování rezervace.
-  6. Systém odešle potvrzení o stornování rezervace uživateli a klubu.
-  7. Uživatel vidí stornovanou rezervaci v jeho historii rezervací.
+  1. Uživatel vybere rezervaci, kterou chce zaplatit.
+  2. Systém uživateli zobrazí možnost pokračovat k platbě.
+  3. Uživatel vybere preferovaný způsob platby.
+  4. Systém přesměruje uživatele na platební bránu.
+  5. Uživatel zadá potřebné platební údaje a potvrdí platbu.
+  6. Platební brána ověří platbu.
+  7. Systém obdrží informaci o úspěšné platbě.
+  8. Systém vytvoří záznam o platbě v databázi.
+  9. Systém pošle potvrzení o platbě uživateli a klubu.
+  10. Rezervace je označena jako zaplacená a uživatel vidí stav v historii rezervací.
 
-### Aktivitní diagram pro Use Case 7
+### Aktivitní diagram pro Use Case 5
+![Alt text](activityDiagramPayment.png)
 
 ## Use Case 1
 ### Název: Vyhledat kluby
