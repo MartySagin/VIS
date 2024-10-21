@@ -40,7 +40,7 @@
 
 ## Use Case 3
 ### Název: Vytvořit rezervaci
-- Aktéři: Uživatel, Systém
+- Aktéři: Uživatel, Systém, Databáze
 - Vstupní podmínky: Uživatel musí být registrovaný a přihlášený v systému a klub, který si vybral, musí existovat v databázi
 - Spouštěč: Uživatel si chce rezervovat klub na dané datum a čas
 - Úspěšný scénář:
@@ -83,7 +83,7 @@
 
 ## Use Case 1
 ### Název: Vyhledat kluby
-- Aktéři: Uživatel, Systém
+- Aktéři: Uživatel, Systém, Databáze
 - Vstupní podmínky: : Uživatel zadá všechny potřebné požadavky pro vyhledávání
 - Spouštěč: Uživatel chce vyhledat vhodný klub
 - Úspěšný scénář:
