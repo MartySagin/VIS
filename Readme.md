@@ -1,5 +1,7 @@
 # VIS Projekt KAL0326 - Rezervace Klubů
 
+# Artefakt 1
+
 ## Proč
 - Zákazník potřebuje nový informační systém, protože dosavadní rezervace klubů probíhaly komplikovaně a neefektivně.
 
@@ -33,7 +35,9 @@
 
 ![Alt text](VIS_agile.png)
 
-# Use Cases
+# Artefakt 2
+
+# Use Casy
 ## Obrázek
 
 ![Alt text](Usecases.png)
@@ -98,6 +102,8 @@
 
 ### Aktivitní diagram pro Use Case 1
 ![Alt text](activityDiagramSearchClub.png)
+
+# Artefakt 5
 
 # Třídní diagram
 ![Alt_text](umlDiagram.png)
