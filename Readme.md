@@ -99,7 +99,7 @@
 ### Aktivitní diagram pro Use Case 1
 ![Alt text](activityDiagramSearchClub.png)
 
-#UML diagram
+# UML diagram
 ![Alt_text](umlDiagram.png)
 
 ## Slovní popis jednotlivých vazeb
