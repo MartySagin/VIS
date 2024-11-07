@@ -98,3 +98,7 @@
 
 ### Aktivitní diagram pro Use Case 1
 ![Alt text](activityDiagramSearchClub.png)
+
+#UML diagram
+![Alt_text](umlDiagram.png)
+
