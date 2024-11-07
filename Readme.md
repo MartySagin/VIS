@@ -102,3 +102,14 @@
 #UML diagram
 ![Alt_text](umlDiagram.png)
 
+## Slovní popis jednotlivých vazeb
+  1. Systému náleží 0..* klubů, uživatelů, rezervací a platebních transakcí. 
+    1.1.  Kluby, uživatelé, rezervace a platební transakce musí patřit do jednoho systému. 
+  2. Přihlášenému uživateli může náležet 0..* rezervací. 
+    2.1.  Rezervace musí patřit právě jednomu přihlášenému uživateli. 
+  3. Rezervaci musí náležet právě jedna platební transakce.  
+    3.1.  Platební transakce musí patřit právě jedné rezervaci. 
+  4. Rezervace musí patřit právě jednomu klubu. 
+    4.1.  Klubu může náležet 0..* rezervací. 
+  5. Majiteli klubu může náležet 0..* klubů. 
+    5.1.  Klub může patřit právě jednomu majiteli klubu. 
