@@ -118,3 +118,9 @@
 
 ## Sekvenční diagram - rezervace klubu
 ![Alt_text](reservationSequenceDiagram.png)
+
+## Sekvenční diagram - platba rezervace
+![Alt_text](paymentSequenceDiagram.png)
+
+## Sekvenční diagram - vyhledat kluby
+![Alt_text](searchClubsSequenceDiagram.png)
