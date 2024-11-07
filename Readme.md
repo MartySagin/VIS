@@ -99,7 +99,7 @@
 ### Aktivitní diagram pro Use Case 1
 ![Alt text](activityDiagramSearchClub.png)
 
-# UML diagram
+# Třídní diagram
 ![Alt_text](umlDiagram.png)
 
 ## Slovní popis jednotlivých vazeb
@@ -112,4 +112,9 @@
   7. Rezervace musí patřit právě jednomu klubu.
      - Klubu může náležet 0..* rezervací. 
   9. Majiteli klubu může náležet 0..* klubů.
-     - Klub může patřit právě jednomu majiteli klubu. 
+     - Klub může patřit právě jednomu majiteli klubu.
+
+# Sekvenční diagramy
+
+## Sekvenční diagram - rezervace klubu
+![Alt_text](reservationSequenceDiagram.png)
