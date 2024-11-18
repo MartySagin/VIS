@@ -111,10 +111,10 @@
 ![Alt text](wireframe-home-page.jpeg)
 
 ## Wireframe - Vyhledat kluby
-![Alt text](wireframe-reservation-history.jpeg)
+![Alt text](wireframe-search-clubs.jpeg)
 
 ## Wireframe - Historie rezervací
-![Alt text](wireframe-search-clubs.jpeg)
+![Alt text](wireframe-reservation-history.jpeg)
 
 # Navigace
 
