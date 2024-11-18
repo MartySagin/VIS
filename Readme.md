@@ -103,6 +103,33 @@
 ### Aktivitní diagram pro Use Case 1
 ![Alt text](activityDiagramSearchClub.png)
 
+# Artefakt 4
+
+# Wireframy
+
+## Wireframe - Domovská stránka
+![Alt text](wireframe-home-page.jpeg)
+
+## Wireframe - Vyhledat kluby
+![Alt text](wireframe-reservation-history.jpeg)
+
+## Wireframe - Historie rezervací
+![Alt text](wireframe-search-clubs.jpeg)
+
+# Navigace
+
+## Navigace pro nepřihlášeného uživatele
+![Alt text](nav-unsigned-user.jpeg)
+
+## Navigace pro přihlášeného uživatele
+![Alt text](nav-signed-user.jpeg)
+
+## Navigace pro správce
+![Alt text](nav-administrator.jpeg)
+
+## Navigace pro majitele klubu
+![Alt text](nav-club-owner.jpeg)
+
 # Artefakt 5
 
 # Třídní diagram
