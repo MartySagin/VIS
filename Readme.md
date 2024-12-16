@@ -128,6 +128,17 @@
 - Celkový odhad velikosti na záznam: ~30B.
 - Odhad množství záznamů: 50 000 - 5 000 000 transakcí.
 - Celková velikost tabulky: ~1.5MB - 150MB.
+  
+## Odhad počtu uživatelů současně pracujících se systémem.
+- Systém pro rezervace klubů má užší okruh uživatelů a není určen pro masivní provoz. Předpokládá se, že rezervační operace se dějí v konkrétních časech (např. večer a o víkendech).
+
+### Průměrný provoz:
+- Průměrný počet současně přihlášených uživatelů: ~20 až 50.
+- To odpovídá běžné aktivitě během pracovního dne, kdy si uživatelé kontrolují rezervace nebo vytvářejí nové rezervace.
+  
+### Peak provoz (špička):
+- Peak (špičkový provoz): ~200 až 500 uživatelů současně.
+- Tento scénář by mohl nastat během večerů, víkendů nebo při mimořádných akcích (např. otevření rezervací na nové kluby, speciální akce či sezónní události).
 
 # Artefakt 4
 
