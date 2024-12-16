@@ -140,6 +140,38 @@
 - Peak (špičkový provoz): ~200 až 500 uživatelů současně.
 - Tento scénář by mohl nastat během večerů, víkendů nebo při mimořádných akcích (např. otevření rezervací na nové kluby, speciální akce či sezónní události).
 
+## Typy interakcí uživatelů se systémem a jejich odhad náročnosti
+
+## Vytvoření rezervace
+- Popis: Uživatel si vybere klub, zadá počet osob a datum, systém vypočítá cenu a vytvoří rezervaci v databázi.
+### Náročnost:
+- Výpočetní náročnost: Nízká (vypočítání ceny na základě počtu osob a ceny za osobu).
+- I/O náročnost: Střední (zápis nové rezervace do databáze).
+
+## Vyhledávání klubů
+- Popis: Uživatel zadá filtry (název, adresa, typ, kapacita, cena, datum) a systém vrátí seznam dostupných klubů.
+### Náročnost:
+- Výpočetní náročnost: Střední (filtrování dat na základě uživatelských kritérií).
+- I/O náročnost: Vysoká (čtení velkého množství dat z databáze, aplikace filtrů).
+
+## Platba rezervace
+- Popis: Uživatel potvrdí rezervaci a vybere způsob platby (hotově/kartou). Systém aktualizuje stav rezervace.
+### Náročnost:
+- Výpočetní náročnost: Nízká (aktualizace stavu).
+- I/O náročnost: Střední (zápis aktualizovaného stavu do databáze).
+
+## Zrušení rezervace
+- Popis: Uživatel může rezervaci zrušit, což systém označí aktualizací stavu rezervace.
+### Náročnost:
+- Výpočetní náročnost: Nízká.
+- I/O náročnost: Střední (zápis změny stavu do databáze).
+
+## Přihlášení/registrace uživatele
+- Popis: Uživatel se přihlásí nebo zaregistruje. Při přihlášení systém ověřuje přihlašovací údaje.
+### Náročnost:
+- Výpočetní náročnost: Nízká (validace a hashování hesla).
+- I/O náročnost: Střední (čtení/zápis uživatelských dat v databázi).
+
 # Artefakt 4
 
 # Wireframy
