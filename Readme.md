@@ -107,6 +107,7 @@
 
 # Konceptuální doménový model
 
+
 ![Alt_text](Konceptual_domain_model.png)
 
 # Artefakt 4
