@@ -103,6 +103,12 @@
 ### Aktivitní diagram pro Use Case 1
 ![Alt text](activityDiagramSearchClub.png)
 
+# Artefakt 3
+
+# Konceptuální doménový model
+
+![Alt_text](Konceptual_domain_model.png)
+
 # Artefakt 4
 
 # Wireframy
