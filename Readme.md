@@ -107,6 +107,25 @@
 
 # Konceptuální doménový model
 
+# Tabulka Klub
+- Celkový odhad velikosti na záznam: ~1MB - 5.1MB.
+- Odhad množství záznamů: 1 000 - 10 000 klubů.
+- Celková velikost tabulky: ~1GB - 50GB
+
+# Tabulka Uživatel
+- Celkový odhad velikosti na záznam: ~250B.
+- Odhad množství záznamů: 10 000 - 1 000 000 uživatelů.
+- Celková velikost tabulky: ~2.5MB - 250MB.
+
+# Tabulka Rezervace
+- Celkový odhad velikosti na záznam: ~80B.
+- Odhad množství záznamů: 100 000 - 10 000 000 rezervací.
+- Celková velikost tabulky: ~8MB - 800MB.
+
+# Tabulka Platební Transakce
+- Celkový odhad velikosti na záznam: ~30B.
+- Odhad množství záznamů: 50 000 - 5 000 000 transakcí.
+- Celková velikost tabulky: ~1.5MB - 150MB.
 
 ![Alt_text](Konceptual_domain_model_new.png)
 
