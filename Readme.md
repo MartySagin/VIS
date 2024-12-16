@@ -172,6 +172,26 @@
 - Výpočetní náročnost: Nízká (validace a hashování hesla).
 - I/O náročnost: Střední (čtení/zápis uživatelských dat v databázi).
 
+## První představa o rozložení systému a volba platforem
+
+### Backend:
+- Platforma: ASP.NET Core
+#### Důvody:
+- Moderní, rychlý a multiplatformní framework.
+- Podpora RESTful API pro komunikaci s frontendem.
+- Jednoduché integrované řešení pro Dependency Injection a zabezpečení.
+- Dobrá podpora pro Entity Framework Core, který umožňuje snadnou práci s databázemi.
+
+### Frontend:
+- HTML5, CSS3, Bootstrap: Pro základní strukturu a stylizaci aplikace.
+- JavaScript (ES6) / jQuery: Pro základní interaktivitu na stránkách (formuláře, validace apod.).
+- Razor Views (MVC): Pro dynamický rendering obsahu na serverové straně.
+  
+### Databáze:
+- Typ: SQL Server nebo SQLite (pro menší projekty/testovací prostředí).
+- Důvody: SQL Server je robustní, dobře integrovatelný s .NET Core, a poskytuje efektivní podporu pro transakce a dotazy.
+- SQLite může být použito pro vývoj nebo menší systémy z důvodu jednoduché konfigurace a přenositelnosti.
+
 # Artefakt 4
 
 # Wireframy
