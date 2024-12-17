@@ -188,10 +188,11 @@
 - Razor Views (MVC): Pro dynamický rendering obsahu na serverové straně.
   
 ### Databáze:
-- Typ: SQL Server nebo SQLite (pro menší projekty/testovací prostředí).
-- Důvody: SQL Server je robustní, dobře integrovatelný s .NET Core, a poskytuje efektivní podporu pro transakce a dotazy.
-- SQLite může být použito pro vývoj nebo menší systémy z důvodu jednoduché konfigurace a přenositelnosti.
-
+Typ: SQLite
+#### Důvody:
+- SQLite je lehká, jednoduchá a přenosná databáze, která nevyžaduje složitou konfiguraci ani samostatný server.
+- Podpora transakcí a jednoduchá integrace s Entity Framework Core umožňuje efektivní práci s daty v rámci .NET Core aplikace.
+  
 # Artefakt 4
 
 # Wireframy
