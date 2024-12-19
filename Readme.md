@@ -260,3 +260,6 @@ Typ: SQLite
 - MVC
 - Repository pattern
 - Dependency injection
+
+# Artefakt 6 
+
