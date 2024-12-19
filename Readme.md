@@ -264,5 +264,5 @@ Typ: SQLite
 
 ## Diagram komponent (logická vrstva) a Fyzická vrstva
 
-![Alt_text](componentDiagram_new.png)
+![Alt_text](componentDiagram.png)
 
