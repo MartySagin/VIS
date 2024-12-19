@@ -247,3 +247,16 @@ Typ: SQLite
 
 ## Sekvenční diagram - vyhledat kluby
 ![Alt_text](searchClubsSequenceDiagram.png)
+
+## Použité návrhové vzory
+
+- Service layer
+- Bussiness layer
+- Data layer
+- Data mapper
+- Identity field
+- Foreign key mapping
+- DTO
+- MVC
+- Repository pattern
+- Dependency injection
