@@ -256,7 +256,6 @@ Typ: SQLite
 - Data mapper
 - Identity field
 - Foreign key mapping
-- DTO
 - MVC
 - Repository pattern
 - Dependency injection
