@@ -263,3 +263,7 @@ Typ: SQLite
 
 # Artefakt 6 
 
+## Diagram komponent (logická vrstva) a Fyzická vrstva
+
+![Alt_text](diagramComponent.png)
+
