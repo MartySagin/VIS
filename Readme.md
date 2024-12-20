@@ -56,8 +56,7 @@
   6. Systém zobrazí potvrzení rezervace a požádá uživatele o potvrzení.
   7. Uživatel potvrdí rezervaci.
   8. Systém odešle potvrzení rezervace uživateli a klubu.
-  9. Systém vytvoří záznam o rezervaci v databázi a převede uživatele na platební bránu.
-  10. Uživatel provede platbu.
+  9. Systém vytvoří záznam o rezervaci v databázi
 
 ### Aktivitní diagram pro Use Case 3
 ![Alt text](activityDiagramReservation.png)
@@ -93,7 +92,7 @@
 - Úspěšný scénář:
   1. Uživatel se přihlásí do systému.
   2. Uživatel přejde do sekce „Vyhledat kluby“.
-  3. Systém zobrazí formulář pro zadání vyhledávacích kritérií (lokalita, kapacita, dostupnost).
+  3. Systém zobrazí formulář pro zadání vyhledávacích kritérií (lokalita, kapacita, dostupnost...).
   4. Uživatel zadá všechny požadované parametry a spustí vyhledávání kliknutím na tlačítko „Vyhledat“.
   5. Systém zpracuje zadané požadavky.
   6. Systém prohledá databázi klubů podle zadaných parametrů.
