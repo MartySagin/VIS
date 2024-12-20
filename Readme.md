@@ -107,7 +107,7 @@
 
 # Konceptuální doménový model
 
-![Alt_text](Konceptual_domain_model_new.png)
+![Alt_text](konceptualDomainModel.png)
 
 ## Tabulka Klub
 - Celkový odhad velikosti na záznam: ~1MB - 5.1MB.
