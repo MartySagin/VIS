@@ -253,6 +253,7 @@ Typ: SQLite
 - Bussiness layer
 - Data layer
 - Data mapper
+- Table data gateway
 - Identity field
 - Foreign key mapping
 - MVC
