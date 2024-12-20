@@ -114,7 +114,7 @@
 - Odhad množství záznamů: 1 000 - 10 000 klubů.
 - Celková velikost tabulky: ~1GB - 50GB
 
-## Tabulka Uživatel
+## Tabulka Přihlášený Uživatel
 - Celkový odhad velikosti na záznam: ~250B.
 - Odhad množství záznamů: 10 000 - 1 000 000 uživatelů.
 - Celková velikost tabulky: ~2.5MB - 250MB.
